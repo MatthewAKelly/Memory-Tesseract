@@ -1,0 +1,27 @@
+&CONTROL
+ MAX_WORDS     = 7,
+ VECTOR_SIZE   = 1024,
+ PERCEPTS_FILE = "0perps.unf",
+ NUM_SENT      = 125239,
+ NUM_LABELS    = 39076,
+ LABEL_FILE    = "word_list2.txt ",
+ matrix_file   = "nocrs.txt",
+ test_file     = "try5.txt",
+ sample        = 10,
+ Memory_file   = "0mem.unf", 
+ Place_file    = "L0_plc.txt",
+ num_test      = 200,
+ Left_file     = "L0_lft.txt",
+ probe_file    = "0prb.unf",
+ scramble_file = "0scrm.unf",
+ result_out    = "results_tesseract_n256.txt"
+ run_num       = 2,
+ POWER         = 5,
+ NUM_ITER      = 1,
+ name          = "tessera",
+ unit_out      = "unit",
+ perm_out      = "perm",
+ group_file    = "L0_group.txt"
+ num_units     = 500,
+ num_unit_files= 1,
+&end

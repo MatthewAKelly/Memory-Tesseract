@@ -1,0 +1,26 @@
+&CONTROL
+ MAX_WORDS     = 7,
+ VECTOR_SIZE   = 1024,
+ PERCEPTS_OUT  = "perps",
+ NUM_SENT      = 125239,
+ NUM_LABELS    = 39076,
+ LABEL_FILE    = "word_list2.txt ",
+ matrix_file   = "nocrs.txt",
+ test_file     = "try5.txt",
+ sample        = 10,
+ Memory_out    = "mem", 
+ Place_out     = "plc.txt",
+ num_test      = 200,
+ Left_out      = "lft.txt",
+ probe_out     = "prb",
+ scramble_out  = "scrm",
+ result_out    = "results_minerva.txt"
+ run_num       = 0,
+ POWER         = 5,
+ NUM_ITER      = 1,
+ name          = "minerva",
+ unit_out      = "unit",
+ perm_out      = "perm",
+ group_out     = "group.txt"
+ num_units     = 1000,
+&end
